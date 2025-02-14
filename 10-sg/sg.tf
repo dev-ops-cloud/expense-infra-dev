@@ -76,7 +76,7 @@ resource "aws_security_group_rule" "bastion_public" {
   from_port         = 22
   to_port           = 22
   protocol          = "tcp"
-  cidr_blocks       = ["49.37.163.211/32"]
+  cidr_blocks       = ["0.0.0.0/0"]
   security_group_id = module.bastion_sg.sg_id
 
 }
