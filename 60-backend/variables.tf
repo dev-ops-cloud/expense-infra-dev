@@ -20,9 +20,9 @@ variable "common_tags" {
 #    default = "Z05090632KRW9DIHOUMAP"
 # }
 
-# variable "domain_name" {
-#    default = "rushika.site"
-# }
+variable "domain_name" {
+   default = "rushika.site"
+}
 
 # variable "zone_name" {
 #    default = "rushika.site"
